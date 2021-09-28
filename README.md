@@ -3,6 +3,9 @@
 ## Introduction
 A Kafka Connect sink connector allowing data stored in Apache Kafka to be uploaded to Celonis Execution Management System (EMS) for process mining and execution automation.
 
+## Full Documentation
+
+See the [Wiki](https://github.com/lensesio-dev/kafka-celonis-ems-connector/wiki) for full documentation, examples, operational details and other information.
 
 ## Requirements 
 
@@ -21,7 +24,7 @@ For example:
 plugin.path=/usr/local/share/kafka/plugins
 ``` 
 
-* Start the Connect workers with that configuration. Connect will discover all connectors defined within those plugins.
+* Start the Kafka Connect workers with that configuration. Connect will discover all connectors defined within those plugins.
 * Repeat these steps for each machine where Connect is running. Each connector must be available on each worker.
   
  
@@ -52,9 +55,6 @@ connect.ems.debug.keep.parquet.files=false
 ```
 The full list of configuration keys can be found in the wiki. 
   
-## Full Documentation
- 
-See the [Wiki](https://github.com/lensesio-dev/kafka-celonis-ems-connector/wiki) for full documentation, examples, operational details and other information.
-  
+
 ## Bugs and Feedback
 For bugs, questions and discussions please use the GitHub Issues.
