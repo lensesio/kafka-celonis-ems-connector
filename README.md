@@ -1,7 +1,7 @@
 # Celonis EMS Kafka connector
 
 ## Introduction
-A Kafka Connect source connector allowing data stored in Apache Kafka to be uploaded to Celonis Execution Management System (EMS) for process mining and execution automation.
+A Kafka Connect sink connector allowing data stored in Apache Kafka to be uploaded to Celonis Execution Management System (EMS) for process mining and execution automation.
 
 
 ## Requirements 
